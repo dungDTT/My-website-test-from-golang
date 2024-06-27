@@ -10,13 +10,12 @@ import (
 	"github.com/go-chi/chi/middleware"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/rs/cors"
-
 )
 
 type User struct {
 	ID      int    `json:"id"`
 	Name    string `json:"name"`
-	Email   string `json:"value"`
+	Email   string `json:"email"`
 	Contact string `json:"contact"`
 }
 
